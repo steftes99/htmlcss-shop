@@ -1,0 +1,20 @@
+.prodotto{
+    float: left;
+    width: calc((100% / 3) - 40px);
+    margin: 20px;
+}
+.clearfix:after{
+    display: table;
+    clear: both;
+    content: '';
+}
+.prodotto img{
+    width: 100%;
+    height: 100%;
+}
+.prodotto-img{
+    height: 100%;
+}
+img{
+    object-fit: cover;
+}
